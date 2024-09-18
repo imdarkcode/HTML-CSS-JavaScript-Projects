@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card-form">
+            <form action="#">
+                <h1>Login</h1>
+                <p>Bem-vindo de volta por favor informe seus dados</p>
+                
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email" required>
+                </div>
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Informe sua senha" required>
+                </div>
+
+                <div class="opcoes-senha">
+                    <label><input type="checkbox" name="lembrar-senha" id="lembrar-senha"> Lembrar senha</label>
+                    <a href="#">Esqueceu sua senha ?</a>
+                </div>
+
+                <button class="button-submit" type="submit">Entrar</button>
+
+                <div class="line"></div>
+
+                <button class="button-google"><img src="google_logo.png" alt="logo do google"> Entrar com o Google</button>
+
+                <div class="cadastro-link">
+                    <p>Não possui uma conta ? <a href="#">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
